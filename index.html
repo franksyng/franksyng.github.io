@@ -1,26 +1,854 @@
-<!DOCTYPE html><html lang="en" class="scroll-smooth"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="/bio.jpg"/><link rel="stylesheet" href="/_next/static/css/281a7a2a9170c50d.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-679b75d1c4c2027c.js"/><script src="/_next/static/chunks/4bd1b696-70b6d399998de86a.js" async=""></script><script src="/_next/static/chunks/684-5aaa8290a129f299.js" async=""></script><script src="/_next/static/chunks/main-app-f0ebdbc0f74e1ac0.js" async=""></script><script src="/_next/static/chunks/17-9c04c9413a9f9f1f.js" async=""></script><script src="/_next/static/chunks/874-6cc630662f3664af.js" async=""></script><script src="/_next/static/chunks/862-15038af301665bb3.js" async=""></script><script src="/_next/static/chunks/app/layout-eed31c35182faeaf.js" async=""></script><script src="/_next/static/chunks/178-595a94b9af1e67b5.js" async=""></script><script src="/_next/static/chunks/748-b0753eeaf12cb586.js" async=""></script><script src="/_next/static/chunks/app/page-3fb1c85f128e1f60.js" async=""></script><link rel="icon" href="/favicon.svg" type="image/svg+xml"/><link rel="dns-prefetch" href="https://google-fonts.jialeliu.com"/><link rel="preconnect" href="https://google-fonts.jialeliu.com" crossorigin=""/><link rel="preload" as="style" href="https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Crimson+Text:ital,wght@0,400;0,600;1,400&amp;display=swap"/><link rel="stylesheet" id="gfonts-css" href="https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Crimson+Text:ital,wght@0,400;0,600;1,400&amp;display=swap" media="print"/><script>
-              (function(){
-                var l = document.getElementById('gfonts-css');
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preload" as="image" href="/bio.jpg" />
+        <link
+            rel="stylesheet"
+            href="/_next/static/css/281a7a2a9170c50d.css"
+            data-precedence="next"
+        />
+        <link
+            rel="preload"
+            as="script"
+            fetchpriority="low"
+            href="/_next/static/chunks/webpack-679b75d1c4c2027c.js"
+        />
+        <script
+            src="/_next/static/chunks/4bd1b696-70b6d399998de86a.js"
+            async=""
+        ></script>
+        <script
+            src="/_next/static/chunks/684-5aaa8290a129f299.js"
+            async=""
+        ></script>
+        <script
+            src="/_next/static/chunks/main-app-f0ebdbc0f74e1ac0.js"
+            async=""
+        ></script>
+        <script
+            src="/_next/static/chunks/17-9c04c9413a9f9f1f.js"
+            async=""
+        ></script>
+        <script
+            src="/_next/static/chunks/874-6cc630662f3664af.js"
+            async=""
+        ></script>
+        <script
+            src="/_next/static/chunks/862-15038af301665bb3.js"
+            async=""
+        ></script>
+        <script
+            src="/_next/static/chunks/app/layout-eed31c35182faeaf.js"
+            async=""
+        ></script>
+        <script
+            src="/_next/static/chunks/178-595a94b9af1e67b5.js"
+            async=""
+        ></script>
+        <script
+            src="/_next/static/chunks/748-b0753eeaf12cb586.js"
+            async=""
+        ></script>
+        <script
+            src="/_next/static/chunks/app/page-3fb1c85f128e1f60.js"
+            async=""
+        ></script>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="dns-prefetch" href="https://google-fonts.jialeliu.com" />
+        <link
+            rel="preconnect"
+            href="https://google-fonts.jialeliu.com"
+            crossorigin=""
+        />
+        <link
+            rel="preload"
+            as="style"
+            href="https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Crimson+Text:ital,wght@0,400;0,600;1,400&amp;display=swap"
+        />
+        <link
+            rel="stylesheet"
+            id="gfonts-css"
+            href="https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Crimson+Text:ital,wght@0,400;0,600;1,400&amp;display=swap"
+            media="print"
+        />
+        <script>
+            (function () {
+                var l = document.getElementById("gfonts-css");
                 if (!l) return;
-                if (l.media !== 'all') {
-                  l.addEventListener('load', function(){ try { l.media = 'all'; } catch(e){} });
+                if (l.media !== "all") {
+                    l.addEventListener("load", function () {
+                        try {
+                            l.media = "all";
+                        } catch (e) {}
+                    });
                 }
-              })();
-            </script><noscript><link rel="stylesheet" href="https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Crimson+Text:ital,wght@0,400;0,600;1,400&amp;display=swap"/></noscript><script>
-              try {
-                const theme = localStorage.getItem('theme-storage');
+            })();
+        </script>
+        <noscript
+            ><link
+                rel="stylesheet"
+                href="https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Crimson+Text:ital,wght@0,400;0,600;1,400&amp;display=swap"
+        /></noscript>
+        <script>
+            try {
+                const theme = localStorage.getItem("theme-storage");
                 const parsed = theme ? JSON.parse(theme) : null;
-                const setting = parsed?.state?.theme || 'system';
-                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));
+                const setting = parsed?.state?.theme || "system";
+                const prefersDark =
+                    typeof window !== "undefined" &&
+                    window.matchMedia &&
+                    window.matchMedia("(prefers-color-scheme: dark)").matches;
+                const effective =
+                    setting === "dark"
+                        ? "dark"
+                        : setting === "light"
+                          ? "light"
+                          : prefersDark
+                            ? "dark"
+                            : "light";
                 var root = document.documentElement;
                 root.classList.add(effective);
-                root.setAttribute('data-theme', effective);
-              } catch (e) {
+                root.setAttribute("data-theme", effective);
+            } catch (e) {
                 var root = document.documentElement;
-                root.classList.add('light');
-                root.setAttribute('data-theme', 'light');
-              }
-            </script><title>Shuyang Wu</title><meta name="description" content="PhD candidate at the University of Edinburgh."/><meta name="author" content="Shuyang (Frank) Wu"/><meta name="keywords" content="Shuyang (Frank) Wu,PhD,Research,University of Edinburgh"/><meta name="creator" content="Shuyang (Frank) Wu"/><meta name="publisher" content="Shuyang (Frank) Wu"/><meta property="og:title" content="Shuyang Wu"/><meta property="og:description" content="PhD candidate at the University of Edinburgh."/><meta property="og:site_name" content="Shuyang (Frank) Wu&#x27;s Academic Website"/><meta property="og:locale" content="en_US"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Shuyang Wu"/><meta name="twitter:description" content="PhD candidate at the University of Edinburgh."/><link rel="icon" href="/favicon.svg"/><script>document.querySelectorAll('body link[rel="icon"], body link[rel="apple-touch-icon"]').forEach(el => document.head.appendChild(el))</script><script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body class="font-sans antialiased"><div style="visibility:hidden"><nav class="fixed top-0 left-0 right-0 z-50" data-headlessui-state=""><div class="transition-all duration-300 ease-out bg-transparent" style="transform:translateY(-100px)"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex justify-between items-center h-16 lg:h-20"><div class="flex-shrink-0" tabindex="0"><a class="text-xl lg:text-2xl font-serif font-semibold text-primary hover:text-accent transition-colors duration-200" href="/">Shuyang Wu</a></div><div class="hidden lg:block"><div class="ml-10 flex items-center space-x-8"><div class="flex items-baseline space-x-8"><a class="relative px-3 py-2 text-sm font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm text-primary" href="/"><span class="relative z-10">About</span><div class="absolute inset-0 bg-accent/10 rounded-lg"></div></a><a class="relative px-3 py-2 text-sm font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm text-neutral-600 hover:text-primary" href="/publications/"><span class="relative z-10">Publications</span></a><a class="relative px-3 py-2 text-sm font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm text-neutral-600 hover:text-primary" href="/awards/"><span class="relative z-10">Awards</span></a><a class="relative px-3 py-2 text-sm font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm text-neutral-600 hover:text-primary" href="/cv/"><span class="relative z-10">CV</span></a></div><div class="flex items-center justify-center w-10 h-10 rounded-lg border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] bg-background dark:bg-neutral-800"><div class="w-4 h-4 rounded-full bg-neutral-300 animate-pulse"></div></div></div></div><div class="lg:hidden flex items-center space-x-2"><div class="flex items-center justify-center w-10 h-10 rounded-lg border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] bg-background dark:bg-neutral-800"><div class="w-4 h-4 rounded-full bg-neutral-300 animate-pulse"></div></div><button class="inline-flex items-center justify-center p-2 rounded-md text-neutral-600 hover:text-primary hover:bg-neutral-100 dark:hover:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-accent transition-colors duration-200" id="headlessui-disclosure-button-«R5pdb»" type="button" aria-expanded="false" data-headlessui-state=""><span class="sr-only">Open main menu</span><div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="block h-6 w-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path></svg></div></button></div></div></div></div></nav><main class="min-h-screen pt-16 lg:pt-20"><div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen"><div class="grid grid-cols-1 lg:grid-cols-3 gap-12"><div class="lg:col-span-1"><div class="sticky top-8" style="opacity:0;transform:translateY(20px)"><div class="w-64 h-64 mx-auto mb-6 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105"><img alt="Shuyang (Frank) Wu" width="256" height="256" decoding="async" data-nimg="1" class="w-full h-full object-cover object-[32%_center]" style="color:transparent" src="/bio.jpg"/></div><div class="text-center mb-6"><h1 class="text-3xl font-serif font-bold text-primary mb-2">Shuyang (Frank) Wu</h1><p class="text-lg text-accent font-medium mb-1">PhD Candidate</p><p class="text-neutral-600 mb-2">University of Edinburgh</p></div><div class="flex flex-wrap justify-center gap-3 sm:gap-4 mb-6 relative px-2"><div class="relative"><button class="p-2 sm:p-2 transition-colors duration-200 text-neutral-600 dark:text-neutral-400 hover:text-accent" aria-label="Email"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"></path></svg></button></div><div class="relative"><button class="p-2 sm:p-2 transition-colors duration-200 text-neutral-600 dark:text-neutral-400 hover:text-accent" aria-label="Location"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"></path></svg></button></div><a href="https://scholar.google.com/citations?user=SuKTqhcAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" class="p-2 sm:p-2 text-neutral-600 dark:text-neutral-400 hover:text-accent transition-colors duration-200" aria-label="Google Scholar"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"></path></svg></a><a href="https://github.com/franksyng" target="_blank" rel="noopener noreferrer" class="p-2 sm:p-2 text-neutral-600 dark:text-neutral-400 hover:text-accent transition-colors duration-200" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github h-5 w-5" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a><a href="linkedin.com/in/frank-shuyang-wu" target="_blank" rel="noopener noreferrer" class="p-2 sm:p-2 text-neutral-600 dark:text-neutral-400 hover:text-accent transition-colors duration-200" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin h-5 w-5" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></div><div class="bg-neutral-100 dark:bg-neutral-800 rounded-lg p-4 mb-6 hover:shadow-lg transition-all duration-200 hover:scale-[1.02]"><h3 class="font-semibold text-primary mb-3">Research Interests</h3><div class="space-y-2 text-sm text-neutral-700 dark:text-neutral-500"><div>Machine Learning</div><div>Computational Pathology</div><div>Medical Image Analysis</div></div></div><div class="flex justify-center"><div class="relative"><button class="flex items-center space-x-2 px-4 py-2 rounded-lg font-medium text-sm transition-all duration-200 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-500 hover:bg-red-50 dark:hover:bg-red-900/20 hover:text-red-600 dark:hover:text-red-400 cursor-pointer" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-4 w-4"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"></path></svg><span>Like</span></button></div></div></div></div><div class="lg:col-span-2 space-y-8"><section id="about" class="scroll-mt-24 space-y-8"><section style="opacity:0;transform:translateY(20px)"><h2 class="text-2xl font-serif font-bold text-primary mb-4">About</h2><div class="text-neutral-700 dark:text-neutral-600 leading-relaxed"><p class="mb-4 last:mb-0">I am a PhD candidate at the School of Regeneration and Repair, University of Edinburgh, advised by <a href="https://edwebprofiles.ed.ac.uk/profile/timothy-kendall" node="[object Object]" target="_blank" rel="noopener noreferrer" class="text-accent font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm">Prof Timothy Kendall</a> (Medical), <a href="https://pathology.ed.ac.uk/people/staff-and-students/dr-sandrine-prost" node="[object Object]" target="_blank" rel="noopener noreferrer" class="text-accent font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm">Dr Sandrine Prost</a> (Medical) and <a href="https://homepages.inf.ed.ac.uk/hbilen/" node="[object Object]" target="_blank" rel="noopener noreferrer" class="text-accent font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm">Dr Hakan Bilen</a> (Informatics).</p>
-<p class="mb-4 last:mb-0">Prior to this, I obtained a MSc degree in Cognitive Science at the University of Edinburgh and a BSc degree with Honour at the Beijing Normal - Hong Kong Baptist University. Both of my bachelor&#x27;s and master&#x27;s degree worked on medical image analysis, specifically MRI and histopathology images.</p>
-<p class="mb-4 last:mb-0">My current research focuses on machine learning, computational pathology and medical image analysis.</p></div></section><section style="opacity:0;transform:translateY(20px)"><div class="flex items-center justify-between mb-4"><h2 class="text-2xl font-serif font-bold text-primary">Selected Publications</h2><a class="text-accent hover:text-accent-dark text-sm font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm" href="/#publications">View All →</a></div><div class="space-y-4"><div class="bg-neutral-50 dark:bg-neutral-800 p-4 rounded-lg shadow-sm border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] hover:shadow-lg transition-all duration-200 hover:scale-[1.02]" style="opacity:0;transform:translateY(20px)"><h3 class="font-semibold text-primary mb-2 leading-tight">LadderMIL: Multiple Instance Learning with Coarse-to-Fine Self-Distillation</h3><p class="text-sm text-neutral-600 dark:text-neutral-500 mb-1"><span><span class=" underline underline-offset-4 decoration-neutral-400">Shuyang Wu</span><sup class="ml-0 text-neutral-600 dark:text-neutral-500">†</sup>, </span><span><span class=" ">Yifu Qiu</span>, </span><span><span class=" ">Ines P. Nearchou</span>, </span><span><span class=" ">Sandrine Prost</span>, </span><span><span class=" ">Jonathan A. Fallowfield</span>, </span><span><span class=" ">Hideki Ueno</span>, </span><span><span class=" ">Hitoshi Tsuda</span>, </span><span><span class=" ">David J. Harrison</span>, </span><span><span class=" ">Hakan Bilen</span>, </span><span><span class=" ">Timothy J. Kendall</span><sup class="ml-0 text-neutral-600 dark:text-neutral-500">†</sup></span></p><p class="text-sm text-neutral-600 dark:text-neutral-500 mb-2">Under review,</p></div><div class="bg-neutral-50 dark:bg-neutral-800 p-4 rounded-lg shadow-sm border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] hover:shadow-lg transition-all duration-200 hover:scale-[1.02]" style="opacity:0;transform:translateY(20px)"><h3 class="font-semibold text-primary mb-2 leading-tight">Autologous Transplantation Tooth Guide Design Based on Deep Learning</h3><p class="text-sm text-neutral-600 dark:text-neutral-500 mb-1"><span><span class=" ">Lifen Wei</span>, </span><span><span class=" underline underline-offset-4 decoration-neutral-400">Shuyang Wu</span>, </span><span><span class=" ">Zelun Huang</span>, </span><span><span class=" ">Yaxin Chen</span>, </span><span><span class=" ">Haoran Zheng</span>, </span><span><span class=" ">Liping Wang</span><sup class="ml-0 text-neutral-600 dark:text-neutral-500">†</sup></span></p><p class="text-sm text-neutral-600 dark:text-neutral-500 mb-2">Journal of Oral and Maxillofacial Surgery,</p></div><div class="bg-neutral-50 dark:bg-neutral-800 p-4 rounded-lg shadow-sm border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] hover:shadow-lg transition-all duration-200 hover:scale-[1.02]" style="opacity:0;transform:translateY(20px)"><h3 class="font-semibold text-primary mb-2 leading-tight">SiamCLIM: Text-Based Pedestrian Search Via Multi-Modal Siamese Contrastive Learning</h3><p class="text-sm text-neutral-600 dark:text-neutral-500 mb-1"><span><span class=" ">Runlin Huang</span>, </span><span><span class=" underline underline-offset-4 decoration-neutral-400">Shuyang Wu</span>, </span><span><span class=" ">Leiping Jie</span>, </span><span><span class=" ">Xinxin Zuo</span>, </span><span><span class=" ">Hui Zhang</span></span></p><p class="text-sm text-neutral-600 dark:text-neutral-500 mb-2">IEEE International Conference on Image Processing (ICIP),</p></div></div></section></section></div></div></div><!--$--><!--/$--><!--$--><!--/$--></main><footer class="border-t border-neutral-200/50 bg-neutral-50/50 dark:bg-neutral-900/50 dark:border-neutral-700/50"><div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6"><div class="flex flex-col sm:flex-row justify-between items-center gap-2"><p class="text-xs text-neutral-500">Last updated: <!-- -->December 4, 2025</p><p class="text-xs text-neutral-500 flex items-center"><a href="https://github.com/xyjoey/PRISM" target="_blank" rel="noopener noreferrer">Built with PRISM</a><span class="ml-2">🚀</span></p></div></div></footer></div><script src="/_next/static/chunks/webpack-679b75d1c4c2027c.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[3719,[\"17\",\"static/chunks/17-9c04c9413a9f9f1f.js\",\"874\",\"static/chunks/874-6cc630662f3664af.js\",\"862\",\"static/chunks/862-15038af301665bb3.js\",\"177\",\"static/chunks/app/layout-eed31c35182faeaf.js\"],\"ThemeProvider\"]\n3:I[768,[\"17\",\"static/chunks/17-9c04c9413a9f9f1f.js\",\"874\",\"static/chunks/874-6cc630662f3664af.js\",\"862\",\"static/chunks/862-15038af301665bb3.js\",\"177\",\"static/chunks/app/layout-eed31c35182faeaf.js\"],\"default\"]\n4:I[7555,[],\"\"]\n5:I[1295,[],\"\"]\n6:I[2548,[\"17\",\"static/chunks/17-9c04c9413a9f9f1f.js\",\"874\",\"static/chunks/874-6cc630662f3664af.js\",\"862\",\"static/chunks/862-15038af301665bb3.js\",\"177\",\"static/chunks/app/layout-eed31c35182faeaf.js\"],\"default\"]\n7:I[7437,[\"17\",\"static/chunks/17-9c04c9413a9f9f1f.js\",\"178\",\"static/chunks/178-595a94b9af1e67b5.js\",\"874\",\"static/chunks/874-6cc630662f3664af.js\",\"748\",\"static/chunks/748-b0753eeaf12cb586.js\",\"974\",\"static/chunks/app/page-3fb1c85f128e1f60.js\"],\"default\"]\n8:I[9507,[\"17\",\"static/chunks/17-9c04c9413a9f9f1f.js\",\"178\",\"static/chunks/178-595a94b9af1e67b5.js\",\"874\",\"static/chunks/874-6cc630662f3664af.js\",\"748\",\"static/chunks/748-b0753eeaf12cb586.js\",\"974\",\"static/chunks/app/page-3fb1c85f128e1f60.js\"],\"default\"]\n9:I[5218,[\"17\",\"static/chunks/17-9c04c9413a9f9f1f.js\",\"178\",\"static/chunks/178-595a94b9af1e67b5.js\",\"874\",\"static/chunks/874-6cc630662f3664af.js\",\"748\",\"static/chunks/748-b0753eeaf12cb586.js\",\"974\",\"static/chunks/app/page-3fb1c85f128e1f60.js\"],\"default\"]\n10:I[9665,[],\"MetadataBoundary\"]\n12:I[9665,[],\"OutletBoundary\"]\n15:I[4911,[],\"AsyncMetadataOutlet\"]\n17:I[9665,[],\"ViewportBoundary\"]\n19:I[6614,[],\"\"]\n:HL[\"/_next/static/css/281a7a2a9170c50d.css\",\"style\"]\na:T5ab,Multiple Instance Learning (MIL) for whole slide image (WSI) analysis in computational pathology often neglects instance-level learning as supervision is typically provided only at the bag level, hindering the integrated consideration of instance and bag-level information during the analysis. In this work, we present LadderMIL, a framework designed to improve MIL through two per"])</script><script>self.__next_f.push([1,"spectives: (1) employing instance-level supervision and (2) learning inter-instance contextual information at bag level. Firstly, we propose a novel Coarse-to-Fine Self-Distillation (CFSD) paradigm that probes and distils a network trained with bag-level information to adaptively obtain instance-level labels which could effectively provide the instance-level supervision for the same network in a self-improving way. Secondly, to capture inter-instance contextual information in WSI, we propose a Contextual Encoding Generator (CEG), which encodes the contextual appearance of instances within a bag. We also theoretically and empirically prove the instance-level learnability of CFSD. Our LadderMIL is evaluated on multiple clinically relevant benchmarking tasks including breast cancer receptor status classification, multi-class subtype classification, tumour classification, and prognosis prediction. Average improvements of 8.1%, 11% and 2.4% in AUC, F1-score, and C-index, respectively, are demonstrated across the five benchmarks, compared to the best baseline.b:T7b3,@misc{wu2025laddermil,\n  title = {LadderMIL: Multiple Instance Learning with Coarse-to-Fine Self-Distillation},\n  booktitle = {Under review,},\n  author = {Shuyang Wu and Yifu Qiu and Ines P. Nearchou and Sandrine Prost and Jonathan A. Fallowfield and Hideki Ueno and Hitoshi Tsuda and David J. Harrison and Hakan Bilen and Timothy J. Kendall},\n  year = {2025},\n  pages = {45--52},\n  eprint = {2502.02707},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.CV},\n  doi = {https://arxiv.org/abs/2502.02707},\n  abstract = {Multiple Instance Learning (MIL) for whole slide image (WSI) analysis in computational pathology often neglects instance-level learning as supervision is typically provided only at the bag level, hindering the integrated consideration of instance and bag-level information during the analysis. In this work, we present LadderMIL, a framework designed to improve MIL through two perspectives: (1) employing instance-level supervision and (2) learning inte"])</script><script>self.__next_f.push([1,"r-instance contextual information at bag level. Firstly, we propose a novel Coarse-to-Fine Self-Distillation (CFSD) paradigm that probes and distils a network trained with bag-level information to adaptively obtain instance-level labels which could effectively provide the instance-level supervision for the same network in a self-improving way. Secondly, to capture inter-instance contextual information in WSI, we propose a Contextual Encoding Generator (CEG), which encodes the contextual appearance of instances within a bag. We also theoretically and empirically prove the instance-level learnability of CFSD. Our LadderMIL is evaluated on multiple clinically relevant benchmarking tasks including breast cancer receptor status classification, multi-class subtype classification, tumour classification, and prognosis prediction. Average improvements of 8.1%, 11% and 2.4% in AUC, F1-score, and C-index, respectively, are demonstrated across the five benchmarks, compared to the best baseline.}\n}c:T9fc,"])</script><script>self.__next_f.push([1,"Autologous tooth transplantation requires precise surgical guide design, involving manual tracing of donor tooth contours based on patient cone-beam computed tomography (CBCT) scans. While manual corrections are time-consuming and prone to human errors, deep learning-based approaches show promise in reducing labor and time costs while minimizing errors. However, the application of deep learning techniques in this particular field is yet to be investigated. We aimed to assess the feasibility of replacing the traditional design pipeline with a deep learning-enabled autologous tooth transplantation guide design pipeline. This retrospective cross-sectional study used 79 CBCT images collected at the Guangzhou Medical University Hospital between October 2022 and March 2023. Following preprocessing, a total of 5,070 region of interest images were extracted from 79 CBCT images. Autologous tooth transplantation guide design pipelines, either based on traditional manual design or deep learning-based design. The main outcome variable was the error between the reconstructed model and the gold standard benchmark. We used the third molar extracted clinically as the gold standard and leveraged it as the benchmark for evaluating our reconstructed models from different design pipelines. Both trueness and accuracy were used to evaluate this error. Trueness was assessed using the root mean square (RMS), and accuracy was measured using the standard deviation. The secondary outcome variable was the pipeline efficiency, assessed based on the time cost. Time cost refers to the amount of time required to acquire the third molar model using the pipeline. Data were analyzed using the Kruskal–Wallis test. Statistical significance was set at P \u003c .05. In the surface matching comparison for different reconstructed models, the deep learning group achieved the lowest RMS value (0.335 ± 0.066 mm). There were no significant differences in RMS values between manual design by a senior doctor and deep learning-based design (P = .688), and the standard deviation values did not differ among the 3 groups (P = .103). The deep learning-based design pipeline (0.017 ± 0.001 minutes) provided a faster assessment compared to the manual design pipeline by both senior (19.676 ± 2.386 minutes) and junior doctors (30.613 ± 6.571 minutes) (P \u003c .001). The deep learning-based automatic pipeline exhibited similar performance in surgical guide design for autogenous tooth transplantation compared to manual design by senior doctors, and it minimized time costs."])</script><script>self.__next_f.push([1,"d:Tc05,"])</script><script>self.__next_f.push([1,"@article{wei2024autologous,\n  title = {Autologous Transplantation Tooth Guide Design Based on Deep Learning},\n  author = {Lifen Wei and Shuyang Wu and Zelun Huang and Yaxin Chen and Haoran Zheng and Liping Wang},\n  year = {2024},\n  month = {mar},\n  journal = {Journal of Oral and Maxillofacial Surgery,},\n  volume = {82},\n  number = {3},\n  pages = {314-324},\n  issn = {0278-2391},\n  doi = {10.1016/j.joms.2023.09.014},\n  urldate = {2024-12-02},\n  langid = {english},\n  abstract = {Autologous tooth transplantation requires precise surgical guide design, involving manual tracing of donor tooth contours based on patient cone-beam computed tomography (CBCT) scans. While manual corrections are time-consuming and prone to human errors, deep learning-based approaches show promise in reducing labor and time costs while minimizing errors. However, the application of deep learning techniques in this particular field is yet to be investigated.\n  We aimed to assess the feasibility of replacing the traditional design pipeline with a deep learning-enabled autologous tooth transplantation guide design pipeline.\n  This retrospective cross-sectional study used 79 CBCT images collected at the Guangzhou Medical University Hospital between October 2022 and March 2023. Following preprocessing, a total of 5,070 region of interest images were extracted from 79 CBCT images.\n  Autologous tooth transplantation guide design pipelines, either based on traditional manual design or deep learning-based design.\n  The main outcome variable was the error between the reconstructed model and the gold standard benchmark. We used the third molar extracted clinically as the gold standard and leveraged it as the benchmark for evaluating our reconstructed models from different design pipelines. Both trueness and accuracy were used to evaluate this error. Trueness was assessed using the root mean square (RMS), and accuracy was measured using the standard deviation. The secondary outcome variable was the pipeline efficiency, assessed based on the time cost. Time cost refers to the amount of time required to acquire the third molar model using the pipeline.\n  Data were analyzed using the Kruskal–Wallis test. Statistical significance was set at P \u003c .05.\n  In the surface matching comparison for different reconstructed models, the deep learning group achieved the lowest RMS value (0.335 ± 0.066 mm). There were no significant differences in RMS values between manual design by a senior doctor and deep learning-based design (P = .688), and the standard deviation values did not differ among the 3 groups (P = .103). The deep learning-based design pipeline (0.017 ± 0.001 minutes) provided a faster assessment compared to the manual design pipeline by both senior (19.676 ± 2.386 minutes) and junior doctors (30.613 ± 6.571 minutes) (P \u003c .001).\n  The deep learning-based automatic pipeline exhibited similar performance in surgical guide design for autogenous tooth transplantation compared to manual design by senior doctors, and it minimized time costs.\n  }\n}"])</script><script>self.__next_f.push([1,"e:T408,Text-based pedestrian search (TBPS) aims at retrieving target persons from the image gallery through descriptive text queries. Despite remarkable progress in recent state-of-the-art approaches, previous works still struggle to efficiently extract discriminative features from multi-modal data. To address the problem of cross-modal fine-grained text-to-image, we proposed a novel Siamese Contrastive Language-Image Model (SiamCLIM). The model implements textual description and target-person interaction through deep bilateral projection, and siamese network structure to capture the relationship between text and image. Experiments show that our model significantly outperforms the state-of-the-art methods on cross-modal fine-grained matching tasks. We conduct the downstream task experiments on the benchmark dataset CUHK-PEDES and the experimental results demonstrate that our model is state-of-the-art and outperforms the current methods by 11.55%, 11.02%, and 7.76% in terms of top-1, top-5, and top-10 accuracy, respectively.f:T596,@inproceedings{huang2023siamclim,\n  title = {SiamCLIM: Text-Based Pedestrian Search Via Multi-Modal Siamese Contrastive Learning},\n  booktitle = {IEEE International Conference on Image Processing (ICIP),},\n  author = {Huang, Runlin and Wu, Shuyang and Jie, Leiping and Zuo, Xinxin and Zhang, Hui},\n  year = {2023},\n  pages = {1800-1804},\n  doi = {10.1109/ICIP49359.2023.10222660},\n  abstract = {Text-based pedestrian search (TBPS) aims at retrieving target persons from the image gallery through descriptive text queries. Despite remarkable progress in recent state-of-the-art approaches, previous works still struggle to efficiently extract discriminative features from multi-modal data. To address the problem of cross-modal fine-grained text-to-image, we proposed a novel Siamese Contrastive Language-Image Model (SiamCLIM). The model implements textual description and target-person interaction through deep bilateral projection, and siamese network structure to capture the relationship between te"])</script><script>self.__next_f.push([1,"xt and image. Experiments show that our model significantly outperforms the state-of-the-art methods on cross-modal fine-grained matching tasks. We conduct the downstream task experiments on the benchmark dataset CUHK-PEDES and the experimental results demonstrate that our model is state-of-the-art and outperforms the current methods by 11.55%, 11.02%, and 7.76% in terms of top-1, top-5, and top-10 accuracy, respectively.}\n}"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"7Pv-lECSAX0BfMYWWqYTi\",\"p\":\"\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/281a7a2a9170c50d.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"className\":\"scroll-smooth\",\"suppressHydrationWarning\":true,\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"link\",null,{\"rel\":\"icon\",\"href\":\"/favicon.svg\",\"type\":\"image/svg+xml\"}],[\"$\",\"link\",null,{\"rel\":\"dns-prefetch\",\"href\":\"https://google-fonts.jialeliu.com\"}],[\"$\",\"link\",null,{\"rel\":\"preconnect\",\"href\":\"https://google-fonts.jialeliu.com\",\"crossOrigin\":\"\"}],[\"$\",\"link\",null,{\"rel\":\"preload\",\"as\":\"style\",\"href\":\"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700\u0026family=Crimson+Text:ital,wght@0,400;0,600;1,400\u0026display=swap\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"id\":\"gfonts-css\",\"href\":\"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700\u0026family=Crimson+Text:ital,wght@0,400;0,600;1,400\u0026display=swap\",\"media\":\"print\"}],[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"\\n              (function(){\\n                var l = document.getElementById('gfonts-css');\\n                if (!l) return;\\n                if (l.media !== 'all') {\\n                  l.addEventListener('load', function(){ try { l.media = 'all'; } catch(e){} });\\n                }\\n              })();\\n            \"}}],[\"$\",\"noscript\",null,{\"children\":[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700\u0026family=Crimson+Text:ital,wght@0,400;0,600;1,400\u0026display=swap\"}]}],[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"\\n              try {\\n                const theme = localStorage.getItem('theme-storage');\\n                const parsed = theme ? JSON.parse(theme) : null;\\n                const setting = parsed?.state?.theme || 'system';\\n                const prefersDark = typeof window !== 'undefined' \u0026\u0026 window.matchMedia \u0026\u0026 window.matchMedia('(prefers-color-scheme: dark)').matches;\\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\\n                var root = document.documentElement;\\n                root.classList.add(effective);\\n                root.setAttribute('data-theme', effective);\\n              } catch (e) {\\n                var root = document.documentElement;\\n                root.classList.add('light');\\n                root.setAttribute('data-theme', 'light');\\n              }\\n            \"}}]]}],[\"$\",\"body\",null,{\"className\":\"font-sans antialiased\",\"children\":[\"$\",\"$L2\",null,{\"children\":[[\"$\",\"$L3\",null,{\"items\":[{\"title\":\"About\",\"type\":\"page\",\"target\":\"about\",\"href\":\"/\"},{\"title\":\"Publications\",\"type\":\"page\",\"target\":\"publications\",\"href\":\"/publications\"},{\"title\":\"Awards\",\"type\":\"page\",\"target\":\"awards\",\"href\":\"/awards\"},{\"title\":\"CV\",\"type\":\"page\",\"target\":\"cv\",\"href\":\"/cv\"}],\"siteTitle\":\"Shuyang Wu\",\"enableOnePageMode\":false}],[\"$\",\"main\",null,{\"className\":\"min-h-screen pt-16 lg:pt-20\",\"children\":[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L5\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}],[\"$\",\"$L6\",null,{\"lastUpdated\":\"December 4, 2025\"}]]}]}]]}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"div\",null,{\"className\":\"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen\",\"children\":[\"$\",\"div\",null,{\"className\":\"grid grid-cols-1 lg:grid-cols-3 gap-12\",\"children\":[[\"$\",\"div\",null,{\"className\":\"lg:col-span-1\",\"children\":[\"$\",\"$L7\",null,{\"author\":{\"name\":\"Shuyang (Frank) Wu\",\"title\":\"PhD Candidate\",\"institution\":\"University of Edinburgh\",\"avatar\":\"/bio.jpg\"},\"social\":{\"email\":\"frank.wu@ed.ac.uk\",\"location\":\"School for Regeneration and Repair\",\"location_url\":\"https://www.google.com/maps/place/Institute+for+Regeneration+and+Repair+(South+Building)/@55.9205993,-3.1331385,17z/data=!3m1!4b1!4m6!3m5!1s0x4887b9168c94d9e7:0x2edc4541bc4a80ba!8m2!3d55.9205993!4d-3.1305636!16s%2Fg%2F11sv1mhx8s?entry=ttu\u0026g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D\",\"location_details\":[\"4-5 Little France Drive, Edinburgh BioQuarter,\",\"Edinburgh EH16 4UU\"],\"google_scholar\":\"https://scholar.google.com/citations?user=SuKTqhcAAAAJ\u0026hl=en\",\"orcid\":\"\",\"github\":\"https://github.com/franksyng\",\"linkedin\":\"linkedin.com/in/frank-shuyang-wu\"},\"features\":{\"enable_likes\":true,\"enable_one_page_mode\":false},\"researchInterests\":[\"Machine Learning\",\"Computational Pathology\",\"Medical Image Analysis\"]}]}],[\"$\",\"div\",null,{\"className\":\"lg:col-span-2 space-y-8\",\"children\":[[\"$\",\"section\",\"about\",{\"id\":\"about\",\"className\":\"scroll-mt-24 space-y-8\",\"children\":[[[\"$\",\"$L8\",\"about\",{\"content\":\"I am a PhD candidate at the School of Regeneration and Repair, University of Edinburgh, advised by [Prof Timothy Kendall](https://edwebprofiles.ed.ac.uk/profile/timothy-kendall) (Medical), [Dr Sandrine Prost](https://pathology.ed.ac.uk/people/staff-and-students/dr-sandrine-prost) (Medical) and [Dr Hakan Bilen](https://homepages.inf.ed.ac.uk/hbilen/) (Informatics).\\n\\nPrior to this, I obtained a MSc degree in Cognitive Science at the University of Edinburgh and a BSc degree with Honour at the Beijing Normal - Hong Kong Baptist University. Both of my bachelor's and master's degree worked on medical image analysis, specifically MRI and histopathology images.\\n\\nMy current research focuses on machine learning, computational pathology and medical image analysis.\\n\",\"title\":\"About\"}],[\"$\",\"$L9\",\"featured_publications\",{\"publications\":[{\"id\":\"wu2025laddermil\",\"title\":\"LadderMIL: Multiple Instance Learning with Coarse-to-Fine Self-Distillation\",\"authors\":[{\"name\":\"Shuyang Wu\",\"isHighlighted\":false,\"isCorresponding\":true,\"isCoAuthor\":true},{\"name\":\"Yifu Qiu\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false},{\"name\":\"Ines P. Nearchou\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false},{\"name\":\"Sandrine Prost\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false},{\"name\":\"Jonathan A. Fallowfield\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false},{\"name\":\"Hideki Ueno\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false},{\"name\":\"Hitoshi Tsuda\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false},{\"name\":\"David J. Harrison\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false},{\"name\":\"Hakan Bilen\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false},{\"name\":\"Timothy J. Kendall\",\"isHighlighted\":false,\"isCorresponding\":true,\"isCoAuthor\":false}],\"year\":2025,\"type\":\"preprint\",\"status\":\"published\",\"tags\":[],\"keywords\":\"$0:f:0:1:2:children:1:props:children:0:props:children:props:children:1:props:children:0:props:children:0:1:props:publications:0:tags\",\"researchArea\":\"machine-learning\",\"journal\":\"\",\"conference\":\"Under review,\",\"pages\":\"45--52\",\"doi\":\"https://arxiv.org/abs/2502.02707\",\"code\":\"https://github.com/franksyng/LadderMIL\",\"abstract\":\"$a\",\"description\":\"\",\"selected\":true,\"bibtex\":\"$b\"},{\"id\":\"wei2024autologous\",\"title\":\"Autologous Transplantation Tooth Guide Design Based on Deep Learning\",\"authors\":[{\"name\":\"Lifen Wei\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false},{\"name\":\"Shuyang Wu\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":true},{\"name\":\"Zelun Huang\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false},{\"name\":\"Yaxin Chen\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false},{\"name\":\"Haoran Zheng\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false},{\"name\":\"Liping Wang\",\"isHighlighted\":false,\"isCorresponding\":true,\"isCoAuthor\":false}],\"year\":2024,\"month\":\"3\",\"type\":\"journal\",\"status\":\"published\",\"tags\":[],\"keywords\":\"$0:f:0:1:2:children:1:props:children:0:props:children:props:children:1:props:children:0:props:children:0:1:props:publications:1:tags\",\"researchArea\":\"machine-learning\",\"journal\":\"Journal of Oral and Maxillofacial Surgery,\",\"conference\":\"\",\"volume\":\"82\",\"issue\":\"3\",\"pages\":\"314-324\",\"doi\":\"10.1016/j.joms.2023.09.014\",\"abstract\":\"$c\",\"description\":\"\",\"selected\":true,\"bibtex\":\"$d\"},{\"id\":\"huang2023siamclim\",\"title\":\"SiamCLIM: Text-Based Pedestrian Search Via Multi-Modal Siamese Contrastive Learning\",\"authors\":[{\"name\":\"Runlin Huang\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false},{\"name\":\"Shuyang Wu\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":true},{\"name\":\"Leiping Jie\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false},{\"name\":\"Xinxin Zuo\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false},{\"name\":\"Hui Zhang\",\"isHighlighted\":false,\"isCorresponding\":false,\"isCoAuthor\":false}],\"year\":2023,\"type\":\"conference\",\"status\":\"published\",\"tags\":[],\"keywords\":\"$0:f:0:1:2:children:1:props:children:0:props:children:props:children:1:props:children:0:props:children:0:1:props:publications:2:tags\",\"researchArea\":\"machine-learning\",\"journal\":\"\",\"conference\":\"IEEE International Conference on Image Processing (ICIP),\",\"pages\":\"1800-1804\",\"doi\":\"10.1109/ICIP49359.2023.10222660\",\"abstract\":\"$e\",\"description\":\"\",\"selected\":true,\"bibtex\":\"$f\"}],\"title\":\"Selected Publications\",\"enableOnePageMode\":true}]],false,false,false]}]]}]]}]}],[\"$\",\"$L10\",null,{\"children\":\"$L11\"}],null,[\"$\",\"$L12\",null,{\"children\":[\"$L13\",\"$L14\",[\"$\",\"$L15\",null,{\"promise\":\"$@16\"}]]}]]}],{},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"P_wUP1Qj7wX8eIE7RMIPT\",{\"children\":[[\"$\",\"$L17\",null,{\"children\":\"$L18\"}],null]}],null]}],false]],\"m\":\"$undefined\",\"G\":[\"$19\",\"$undefined\"],\"s\":false,\"S\":true}\n"])</script><script>self.__next_f.push([1,"1a:\"$Sreact.suspense\"\n1b:I[4911,[],\"AsyncMetadata\"]\n11:[\"$\",\"$1a\",null,{\"fallback\":null,\"children\":[\"$\",\"$L1b\",null,{\"promise\":\"$@1c\"}]}]\n"])</script><script>self.__next_f.push([1,"14:null\n"])</script><script>self.__next_f.push([1,"18:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n13:null\n"])</script><script>self.__next_f.push([1,"1c:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Shuyang Wu\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"PhD candidate at the University of Edinburgh.\"}],[\"$\",\"meta\",\"2\",{\"name\":\"author\",\"content\":\"Shuyang (Frank) Wu\"}],[\"$\",\"meta\",\"3\",{\"name\":\"keywords\",\"content\":\"Shuyang (Frank) Wu,PhD,Research,University of Edinburgh\"}],[\"$\",\"meta\",\"4\",{\"name\":\"creator\",\"content\":\"Shuyang (Frank) Wu\"}],[\"$\",\"meta\",\"5\",{\"name\":\"publisher\",\"content\":\"Shuyang (Frank) Wu\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:title\",\"content\":\"Shuyang Wu\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:description\",\"content\":\"PhD candidate at the University of Edinburgh.\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:site_name\",\"content\":\"Shuyang (Frank) Wu's Academic Website\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:locale\",\"content\":\"en_US\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:card\",\"content\":\"summary\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:title\",\"content\":\"Shuyang Wu\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:description\",\"content\":\"PhD candidate at the University of Edinburgh.\"}],[\"$\",\"link\",\"14\",{\"rel\":\"icon\",\"href\":\"/favicon.svg\"}]],\"error\":null,\"digest\":\"$undefined\"}\n16:{\"metadata\":\"$1c:metadata\",\"error\":null,\"digest\":\"$undefined\"}\n"])</script></body></html>
+                root.classList.add("light");
+                root.setAttribute("data-theme", "light");
+            }
+        </script>
+        <title>Shuyang Wu</title>
+        <meta
+            name="description"
+            content="PhD candidate at the University of Edinburgh."
+        />
+        <meta name="author" content="Shuyang (Frank) Wu" />
+        <meta
+            name="keywords"
+            content="Shuyang (Frank) Wu,PhD,Research,University of Edinburgh"
+        />
+        <meta name="creator" content="Shuyang (Frank) Wu" />
+        <meta name="publisher" content="Shuyang (Frank) Wu" />
+        <meta property="og:title" content="Shuyang Wu" />
+        <meta
+            property="og:description"
+            content="PhD candidate at the University of Edinburgh."
+        />
+        <meta
+            property="og:site_name"
+            content="Shuyang (Frank) Wu&#x27;s Academic Website"
+        />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Shuyang Wu" />
+        <meta
+            name="twitter:description"
+            content="PhD candidate at the University of Edinburgh."
+        />
+        <link rel="icon" href="/favicon.svg" />
+        <script>
+            document
+                .querySelectorAll(
+                    'body link[rel="icon"], body link[rel="apple-touch-icon"]',
+                )
+                .forEach((el) => document.head.appendChild(el));
+        </script>
+        <script
+            src="/_next/static/chunks/polyfills-42372ed130431b0a.js"
+            nomodule=""
+        ></script>
+    </head>
+    <body class="font-sans antialiased">
+        <div style="visibility: hidden">
+            <nav
+                class="fixed top-0 left-0 right-0 z-50"
+                data-headlessui-state=""
+            >
+                <div
+                    class="transition-all duration-300 ease-out bg-transparent"
+                    style="transform: translateY(-100px)"
+                >
+                    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <div
+                            class="flex justify-between items-center h-16 lg:h-20"
+                        >
+                            <div class="flex-shrink-0" tabindex="0">
+                                <a
+                                    class="text-xl lg:text-2xl font-serif font-semibold text-primary hover:text-accent transition-colors duration-200"
+                                    href="/"
+                                    >Shuyang Wu</a
+                                >
+                            </div>
+                            <div class="hidden lg:block">
+                                <div class="ml-10 flex items-center space-x-8">
+                                    <div class="flex items-baseline space-x-8">
+                                        <a
+                                            class="relative px-3 py-2 text-sm font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm text-primary"
+                                            href="/"
+                                            ><span class="relative z-10"
+                                                >About</span
+                                            >
+                                            <div
+                                                class="absolute inset-0 bg-accent/10 rounded-lg"
+                                            ></div></a
+                                        ><a
+                                            class="relative px-3 py-2 text-sm font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm text-neutral-600 hover:text-primary"
+                                            href="/publications/"
+                                            ><span class="relative z-10"
+                                                >Publications</span
+                                            ></a
+                                        ><a
+                                            class="relative px-3 py-2 text-sm font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm text-neutral-600 hover:text-primary"
+                                            href="/awards/"
+                                            ><span class="relative z-10"
+                                                >Awards</span
+                                            ></a
+                                        ><a
+                                            class="relative px-3 py-2 text-sm font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm text-neutral-600 hover:text-primary"
+                                            href="/cv/"
+                                            ><span class="relative z-10"
+                                                >CV</span
+                                            ></a
+                                        >
+                                    </div>
+                                    <div
+                                        class="flex items-center justify-center w-10 h-10 rounded-lg border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] bg-background dark:bg-neutral-800"
+                                    >
+                                        <div
+                                            class="w-4 h-4 rounded-full bg-neutral-300 animate-pulse"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lg:hidden flex items-center space-x-2">
+                                <div
+                                    class="flex items-center justify-center w-10 h-10 rounded-lg border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] bg-background dark:bg-neutral-800"
+                                >
+                                    <div
+                                        class="w-4 h-4 rounded-full bg-neutral-300 animate-pulse"
+                                    ></div>
+                                </div>
+                                <button
+                                    class="inline-flex items-center justify-center p-2 rounded-md text-neutral-600 hover:text-primary hover:bg-neutral-100 dark:hover:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-accent transition-colors duration-200"
+                                    id="headlessui-disclosure-button-«R5pdb»"
+                                    type="button"
+                                    aria-expanded="false"
+                                    data-headlessui-state=""
+                                >
+                                    <span class="sr-only">Open main menu</span>
+                                    <div>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="1.5"
+                                            stroke="currentColor"
+                                            aria-hidden="true"
+                                            data-slot="icon"
+                                            class="block h-6 w-6"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                                            ></path>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <main class="min-h-screen pt-16 lg:pt-20">
+                <div
+                    class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen"
+                >
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                        <div class="lg:col-span-1">
+                            <div
+                                class="sticky top-8"
+                                style="opacity: 0; transform: translateY(20px)"
+                            >
+                                <div
+                                    class="w-64 h-64 mx-auto mb-6 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105"
+                                >
+                                    <img
+                                        alt="Shuyang (Frank) Wu"
+                                        width="256"
+                                        height="256"
+                                        decoding="async"
+                                        data-nimg="1"
+                                        class="w-full h-full object-cover object-[32%_center]"
+                                        style="color: transparent"
+                                        src="/bio.jpg"
+                                    />
+                                </div>
+                                <div class="text-center mb-6">
+                                    <h1
+                                        class="text-3xl font-serif font-bold text-primary mb-2"
+                                    >
+                                        Shuyang (Frank) Wu
+                                    </h1>
+                                    <p
+                                        class="text-lg text-accent font-medium mb-1"
+                                    >
+                                        PhD Candidate
+                                    </p>
+                                    <p class="text-neutral-600 mb-2">
+                                        University of Edinburgh
+                                    </p>
+                                </div>
+                                <div
+                                    class="flex flex-wrap justify-center gap-3 sm:gap-4 mb-6 relative px-2"
+                                >
+                                    <div class="relative">
+                                        <button
+                                            class="p-2 sm:p-2 transition-colors duration-200 text-neutral-600 dark:text-neutral-400 hover:text-accent"
+                                            aria-label="Email"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                stroke-width="1.5"
+                                                stroke="currentColor"
+                                                aria-hidden="true"
+                                                data-slot="icon"
+                                                class="h-5 w-5"
+                                            >
+                                                <path
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                                                ></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="relative">
+                                        <button
+                                            class="p-2 sm:p-2 transition-colors duration-200 text-neutral-600 dark:text-neutral-400 hover:text-accent"
+                                            aria-label="Location"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                stroke-width="1.5"
+                                                stroke="currentColor"
+                                                aria-hidden="true"
+                                                data-slot="icon"
+                                                class="h-5 w-5"
+                                            >
+                                                <path
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                                                ></path>
+                                                <path
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                                                ></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <a
+                                        href="https://scholar.google.com/citations?user=SuKTqhcAAAAJ&amp;hl=en"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="p-2 sm:p-2 text-neutral-600 dark:text-neutral-400 hover:text-accent transition-colors duration-200"
+                                        aria-label="Google Scholar"
+                                        ><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="1.5"
+                                            stroke="currentColor"
+                                            aria-hidden="true"
+                                            data-slot="icon"
+                                            class="h-5 w-5"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"
+                                            ></path></svg></a
+                                    ><a
+                                        href="https://github.com/franksyng"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="p-2 sm:p-2 text-neutral-600 dark:text-neutral-400 hover:text-accent transition-colors duration-200"
+                                        aria-label="GitHub"
+                                        ><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="lucide lucide-github h-5 w-5"
+                                            aria-hidden="true"
+                                        >
+                                            <path
+                                                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                                            ></path>
+                                            <path
+                                                d="M9 18c-4.51 2-5-2-7-2"
+                                            ></path></svg></a
+                                    ><a
+                                        href="linkedin.com/in/frank-shuyang-wu"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="p-2 sm:p-2 text-neutral-600 dark:text-neutral-400 hover:text-accent transition-colors duration-200"
+                                        aria-label="LinkedIn"
+                                        ><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            class="lucide lucide-linkedin h-5 w-5"
+                                            aria-hidden="true"
+                                        >
+                                            <path
+                                                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                                            ></path>
+                                            <rect
+                                                width="4"
+                                                height="12"
+                                                x="2"
+                                                y="9"
+                                            ></rect>
+                                            <circle
+                                                cx="4"
+                                                cy="4"
+                                                r="2"
+                                            ></circle></svg
+                                    ></a>
+                                </div>
+                                <div
+                                    class="bg-neutral-100 dark:bg-neutral-800 rounded-lg p-4 mb-6 hover:shadow-lg transition-all duration-200 hover:scale-[1.02]"
+                                >
+                                    <h3 class="font-semibold text-primary mb-3">
+                                        Research Interests
+                                    </h3>
+                                    <div
+                                        class="space-y-2 text-sm text-neutral-700 dark:text-neutral-500"
+                                    >
+                                        <div>Machine Learning</div>
+                                        <div>Computational Pathology</div>
+                                        <div>Medical Image Analysis</div>
+                                    </div>
+                                </div>
+                                <div class="flex justify-center">
+                                    <div class="relative">
+                                        <button
+                                            class="flex items-center space-x-2 px-4 py-2 rounded-lg font-medium text-sm transition-all duration-200 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-500 hover:bg-red-50 dark:hover:bg-red-900/20 hover:text-red-600 dark:hover:text-red-400 cursor-pointer"
+                                            tabindex="0"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                stroke-width="1.5"
+                                                stroke="currentColor"
+                                                aria-hidden="true"
+                                                data-slot="icon"
+                                                class="h-4 w-4"
+                                            >
+                                                <path
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                                                ></path></svg
+                                            ><span>Like</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:col-span-2 space-y-8">
+                            <section id="about" class="scroll-mt-24 space-y-8">
+                                <section
+                                    style="
+                                        opacity: 0;
+                                        transform: translateY(20px);
+                                    "
+                                >
+                                    <h2
+                                        class="text-2xl font-serif font-bold text-primary mb-4"
+                                    >
+                                        About
+                                    </h2>
+                                    <div
+                                        class="text-neutral-700 dark:text-neutral-600 leading-relaxed"
+                                    >
+                                        <p class="mb-4 last:mb-0">
+                                            I am a PhD candidate at the School
+                                            of Regeneration and Repair,
+                                            University of Edinburgh, advised by
+                                            <a
+                                                href="https://edwebprofiles.ed.ac.uk/profile/timothy-kendall"
+                                                node="[object Object]"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                class="text-accent font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm"
+                                                >Prof Timothy Kendall</a
+                                            >
+                                            (Medical),
+                                            <a
+                                                href="https://pathology.ed.ac.uk/people/staff-and-students/dr-sandrine-prost"
+                                                node="[object Object]"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                class="text-accent font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm"
+                                                >Dr Sandrine Prost</a
+                                            >
+                                            (Medical) and
+                                            <a
+                                                href="https://homepages.inf.ed.ac.uk/hbilen/"
+                                                node="[object Object]"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                class="text-accent font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm"
+                                                >Dr Hakan Bilen</a
+                                            >
+                                            (Informatics).
+                                        </p>
+                                        <p class="mb-4 last:mb-0">
+                                            Prior to this, I obtained a MSc
+                                            degree in Cognitive Science at the
+                                            University of Edinburgh and a BSc
+                                            degree with Honour at the Beijing
+                                            Normal - Hong Kong Baptist
+                                            University. Both of my
+                                            bachelor&#x27;s and master&#x27;s
+                                            degree worked on medical image
+                                            analysis, specifically MRI and
+                                            histopathology images.
+                                        </p>
+                                        <p class="mb-4 last:mb-0">
+                                            My current research focuses on
+                                            machine learning, computational
+                                            pathology and medical image
+                                            analysis.
+                                        </p>
+                                    </div>
+                                </section>
+                                <section
+                                    style="
+                                        opacity: 0;
+                                        transform: translateY(20px);
+                                    "
+                                >
+                                    <div
+                                        class="flex items-center justify-between mb-4"
+                                    >
+                                        <h2
+                                            class="text-2xl font-serif font-bold text-primary"
+                                        >
+                                            Selected Publications
+                                        </h2>
+                                        <a
+                                            class="text-accent hover:text-accent-dark text-sm font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm"
+                                            href="/publications/"
+                                            >View All →</a
+                                        >
+                                    </div>
+                                    <div class="space-y-4">
+                                        <div
+                                            class="bg-neutral-50 dark:bg-neutral-800 p-4 rounded-lg shadow-sm border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] hover:shadow-lg transition-all duration-200 hover:scale-[1.02]"
+                                            style="
+                                                opacity: 0;
+                                                transform: translateY(20px);
+                                            "
+                                        >
+                                            <h3
+                                                class="font-semibold text-primary mb-2 leading-tight"
+                                            >
+                                                LadderMIL: Multiple Instance
+                                                Learning with Coarse-to-Fine
+                                                Self-Distillation
+                                            </h3>
+                                            <p
+                                                class="text-sm text-neutral-600 dark:text-neutral-500 mb-1"
+                                            >
+                                                <span
+                                                    ><span
+                                                        class="underline underline-offset-4 decoration-neutral-400"
+                                                        >Shuyang Wu</span
+                                                    ><sup
+                                                        class="ml-0 text-neutral-600 dark:text-neutral-500"
+                                                        >†</sup
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >Yifu Qiu</span
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >Ines P. Nearchou</span
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >Sandrine Prost</span
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >Jonathan A.
+                                                        Fallowfield</span
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >Hideki Ueno</span
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >Hitoshi Tsuda</span
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >David J. Harrison</span
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >Hakan Bilen</span
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >Timothy J.
+                                                        Kendall</span
+                                                    ><sup
+                                                        class="ml-0 text-neutral-600 dark:text-neutral-500"
+                                                        >†</sup
+                                                    ></span
+                                                >
+                                            </p>
+                                            <p
+                                                class="text-sm text-neutral-600 dark:text-neutral-500 mb-2"
+                                            >
+                                                Under review,
+                                            </p>
+                                        </div>
+                                        <div
+                                            class="bg-neutral-50 dark:bg-neutral-800 p-4 rounded-lg shadow-sm border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] hover:shadow-lg transition-all duration-200 hover:scale-[1.02]"
+                                            style="
+                                                opacity: 0;
+                                                transform: translateY(20px);
+                                            "
+                                        >
+                                            <h3
+                                                class="font-semibold text-primary mb-2 leading-tight"
+                                            >
+                                                Autologous Transplantation Tooth
+                                                Guide Design Based on Deep
+                                                Learning
+                                            </h3>
+                                            <p
+                                                class="text-sm text-neutral-600 dark:text-neutral-500 mb-1"
+                                            >
+                                                <span
+                                                    ><span class=" "
+                                                        >Lifen Wei</span
+                                                    >, </span
+                                                ><span
+                                                    ><span
+                                                        class="underline underline-offset-4 decoration-neutral-400"
+                                                        >Shuyang Wu</span
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >Zelun Huang</span
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >Yaxin Chen</span
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >Haoran Zheng</span
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >Liping Wang</span
+                                                    ><sup
+                                                        class="ml-0 text-neutral-600 dark:text-neutral-500"
+                                                        >†</sup
+                                                    ></span
+                                                >
+                                            </p>
+                                            <p
+                                                class="text-sm text-neutral-600 dark:text-neutral-500 mb-2"
+                                            >
+                                                Journal of Oral and
+                                                Maxillofacial Surgery,
+                                            </p>
+                                        </div>
+                                        <div
+                                            class="bg-neutral-50 dark:bg-neutral-800 p-4 rounded-lg shadow-sm border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] hover:shadow-lg transition-all duration-200 hover:scale-[1.02]"
+                                            style="
+                                                opacity: 0;
+                                                transform: translateY(20px);
+                                            "
+                                        >
+                                            <h3
+                                                class="font-semibold text-primary mb-2 leading-tight"
+                                            >
+                                                SiamCLIM: Text-Based Pedestrian
+                                                Search Via Multi-Modal Siamese
+                                                Contrastive Learning
+                                            </h3>
+                                            <p
+                                                class="text-sm text-neutral-600 dark:text-neutral-500 mb-1"
+                                            >
+                                                <span
+                                                    ><span class=" "
+                                                        >Runlin Huang</span
+                                                    >, </span
+                                                ><span
+                                                    ><span
+                                                        class="underline underline-offset-4 decoration-neutral-400"
+                                                        >Shuyang Wu</span
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >Leiping Jie</span
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >Xinxin Zuo</span
+                                                    >, </span
+                                                ><span
+                                                    ><span class=" "
+                                                        >Hui Zhang</span
+                                                    ></span
+                                                >
+                                            </p>
+                                            <p
+                                                class="text-sm text-neutral-600 dark:text-neutral-500 mb-2"
+                                            >
+                                                IEEE International Conference on
+                                                Image Processing (ICIP),
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <!--$--><!--/$--><!--$--><!--/$-->
+            </main>
+            <footer
+                class="border-t border-neutral-200/50 bg-neutral-50/50 dark:bg-neutral-900/50 dark:border-neutral-700/50"
+            >
+                <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+                    <div
+                        class="flex flex-col sm:flex-row justify-between items-center gap-2"
+                    >
+                        <p class="text-xs text-neutral-500">
+                            Last updated:
+                            <!-- -->December 4, 2025
+                        </p>
+                        <p class="text-xs text-neutral-500 flex items-center">
+                            <a
+                                href="https://github.com/xyjoey/PRISM"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Built with PRISM</a
+                            ><span class="ml-2">🚀</span>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script
+            src="/_next/static/chunks/webpack-679b75d1c4c2027c.js"
+            async=""
+        ></script>
+        <script>
+            (self.__next_f = self.__next_f || []).push([0]);
+        </script>
+        <script>
+            self.__next_f.push([
+                1,
+                '1:"$Sreact.fragment"\n2:I[3719,["17","static/chunks/17-9c04c9413a9f9f1f.js","874","static/chunks/874-6cc630662f3664af.js","862","static/chunks/862-15038af301665bb3.js","177","static/chunks/app/layout-eed31c35182faeaf.js"],"ThemeProvider"]\n3:I[768,["17","static/chunks/17-9c04c9413a9f9f1f.js","874","static/chunks/874-6cc630662f3664af.js","862","static/chunks/862-15038af301665bb3.js","177","static/chunks/app/layout-eed31c35182faeaf.js"],"default"]\n4:I[7555,[],""]\n5:I[1295,[],""]\n6:I[2548,["17","static/chunks/17-9c04c9413a9f9f1f.js","874","static/chunks/874-6cc630662f3664af.js","862","static/chunks/862-15038af301665bb3.js","177","static/chunks/app/layout-eed31c35182faeaf.js"],"default"]\n7:I[7437,["17","static/chunks/17-9c04c9413a9f9f1f.js","178","static/chunks/178-595a94b9af1e67b5.js","874","static/chunks/874-6cc630662f3664af.js","748","static/chunks/748-b0753eeaf12cb586.js","974","static/chunks/app/page-3fb1c85f128e1f60.js"],"default"]\n8:I[9507,["17","static/chunks/17-9c04c9413a9f9f1f.js","178","static/chunks/178-595a94b9af1e67b5.js","874","static/chunks/874-6cc630662f3664af.js","748","static/chunks/748-b0753eeaf12cb586.js","974","static/chunks/app/page-3fb1c85f128e1f60.js"],"default"]\n9:I[5218,["17","static/chunks/17-9c04c9413a9f9f1f.js","178","static/chunks/178-595a94b9af1e67b5.js","874","static/chunks/874-6cc630662f3664af.js","748","static/chunks/748-b0753eeaf12cb586.js","974","static/chunks/app/page-3fb1c85f128e1f60.js"],"default"]\n10:I[9665,[],"MetadataBoundary"]\n12:I[9665,[],"OutletBoundary"]\n15:I[4911,[],"AsyncMetadataOutlet"]\n17:I[9665,[],"ViewportBoundary"]\n19:I[6614,[],""]\n:HL["/_next/static/css/281a7a2a9170c50d.css","style"]\na:T5ab,Multiple Instance Learning (MIL) for whole slide image (WSI) analysis in computational pathology often neglects instance-level learning as supervision is typically provided only at the bag level, hindering the integrated consideration of instance and bag-level information during the analysis. In this work, we present LadderMIL, a framework designed to improve MIL through two per',
+            ]);
+        </script>
+        <script>
+            self.__next_f.push([
+                1,
+                "spectives: (1) employing instance-level supervision and (2) learning inter-instance contextual information at bag level. Firstly, we propose a novel Coarse-to-Fine Self-Distillation (CFSD) paradigm that probes and distils a network trained with bag-level information to adaptively obtain instance-level labels which could effectively provide the instance-level supervision for the same network in a self-improving way. Secondly, to capture inter-instance contextual information in WSI, we propose a Contextual Encoding Generator (CEG), which encodes the contextual appearance of instances within a bag. We also theoretically and empirically prove the instance-level learnability of CFSD. Our LadderMIL is evaluated on multiple clinically relevant benchmarking tasks including breast cancer receptor status classification, multi-class subtype classification, tumour classification, and prognosis prediction. Average improvements of 8.1%, 11% and 2.4% in AUC, F1-score, and C-index, respectively, are demonstrated across the five benchmarks, compared to the best baseline.b:T7b3,@misc{wu2025laddermil,\n  title = {LadderMIL: Multiple Instance Learning with Coarse-to-Fine Self-Distillation},\n  booktitle = {Under review,},\n  author = {Shuyang Wu and Yifu Qiu and Ines P. Nearchou and Sandrine Prost and Jonathan A. Fallowfield and Hideki Ueno and Hitoshi Tsuda and David J. Harrison and Hakan Bilen and Timothy J. Kendall},\n  year = {2025},\n  pages = {45--52},\n  eprint = {2502.02707},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.CV},\n  doi = {https://arxiv.org/abs/2502.02707},\n  abstract = {Multiple Instance Learning (MIL) for whole slide image (WSI) analysis in computational pathology often neglects instance-level learning as supervision is typically provided only at the bag level, hindering the integrated consideration of instance and bag-level information during the analysis. In this work, we present LadderMIL, a framework designed to improve MIL through two perspectives: (1) employing instance-level supervision and (2) learning inte",
+            ]);
+        </script>
+        <script>
+            self.__next_f.push([
+                1,
+                "r-instance contextual information at bag level. Firstly, we propose a novel Coarse-to-Fine Self-Distillation (CFSD) paradigm that probes and distils a network trained with bag-level information to adaptively obtain instance-level labels which could effectively provide the instance-level supervision for the same network in a self-improving way. Secondly, to capture inter-instance contextual information in WSI, we propose a Contextual Encoding Generator (CEG), which encodes the contextual appearance of instances within a bag. We also theoretically and empirically prove the instance-level learnability of CFSD. Our LadderMIL is evaluated on multiple clinically relevant benchmarking tasks including breast cancer receptor status classification, multi-class subtype classification, tumour classification, and prognosis prediction. Average improvements of 8.1%, 11% and 2.4% in AUC, F1-score, and C-index, respectively, are demonstrated across the five benchmarks, compared to the best baseline.}\n}c:T9fc,",
+            ]);
+        </script>
+        <script>
+            self.__next_f.push([
+                1,
+                "Autologous tooth transplantation requires precise surgical guide design, involving manual tracing of donor tooth contours based on patient cone-beam computed tomography (CBCT) scans. While manual corrections are time-consuming and prone to human errors, deep learning-based approaches show promise in reducing labor and time costs while minimizing errors. However, the application of deep learning techniques in this particular field is yet to be investigated. We aimed to assess the feasibility of replacing the traditional design pipeline with a deep learning-enabled autologous tooth transplantation guide design pipeline. This retrospective cross-sectional study used 79 CBCT images collected at the Guangzhou Medical University Hospital between October 2022 and March 2023. Following preprocessing, a total of 5,070 region of interest images were extracted from 79 CBCT images. Autologous tooth transplantation guide design pipelines, either based on traditional manual design or deep learning-based design. The main outcome variable was the error between the reconstructed model and the gold standard benchmark. We used the third molar extracted clinically as the gold standard and leveraged it as the benchmark for evaluating our reconstructed models from different design pipelines. Both trueness and accuracy were used to evaluate this error. Trueness was assessed using the root mean square (RMS), and accuracy was measured using the standard deviation. The secondary outcome variable was the pipeline efficiency, assessed based on the time cost. Time cost refers to the amount of time required to acquire the third molar model using the pipeline. Data were analyzed using the Kruskal–Wallis test. Statistical significance was set at P \u003c .05. In the surface matching comparison for different reconstructed models, the deep learning group achieved the lowest RMS value (0.335 ± 0.066 mm). There were no significant differences in RMS values between manual design by a senior doctor and deep learning-based design (P = .688), and the standard deviation values did not differ among the 3 groups (P = .103). The deep learning-based design pipeline (0.017 ± 0.001 minutes) provided a faster assessment compared to the manual design pipeline by both senior (19.676 ± 2.386 minutes) and junior doctors (30.613 ± 6.571 minutes) (P \u003c .001). The deep learning-based automatic pipeline exhibited similar performance in surgical guide design for autogenous tooth transplantation compared to manual design by senior doctors, and it minimized time costs.",
+            ]);
+        </script>
+        <script>
+            self.__next_f.push([1, "d:Tc05,"]);
+        </script>
+        <script>
+            self.__next_f.push([
+                1,
+                "@article{wei2024autologous,\n  title = {Autologous Transplantation Tooth Guide Design Based on Deep Learning},\n  author = {Lifen Wei and Shuyang Wu and Zelun Huang and Yaxin Chen and Haoran Zheng and Liping Wang},\n  year = {2024},\n  month = {mar},\n  journal = {Journal of Oral and Maxillofacial Surgery,},\n  volume = {82},\n  number = {3},\n  pages = {314-324},\n  issn = {0278-2391},\n  doi = {10.1016/j.joms.2023.09.014},\n  urldate = {2024-12-02},\n  langid = {english},\n  abstract = {Autologous tooth transplantation requires precise surgical guide design, involving manual tracing of donor tooth contours based on patient cone-beam computed tomography (CBCT) scans. While manual corrections are time-consuming and prone to human errors, deep learning-based approaches show promise in reducing labor and time costs while minimizing errors. However, the application of deep learning techniques in this particular field is yet to be investigated.\n  We aimed to assess the feasibility of replacing the traditional design pipeline with a deep learning-enabled autologous tooth transplantation guide design pipeline.\n  This retrospective cross-sectional study used 79 CBCT images collected at the Guangzhou Medical University Hospital between October 2022 and March 2023. Following preprocessing, a total of 5,070 region of interest images were extracted from 79 CBCT images.\n  Autologous tooth transplantation guide design pipelines, either based on traditional manual design or deep learning-based design.\n  The main outcome variable was the error between the reconstructed model and the gold standard benchmark. We used the third molar extracted clinically as the gold standard and leveraged it as the benchmark for evaluating our reconstructed models from different design pipelines. Both trueness and accuracy were used to evaluate this error. Trueness was assessed using the root mean square (RMS), and accuracy was measured using the standard deviation. The secondary outcome variable was the pipeline efficiency, assessed based on the time cost. Time cost refers to the amount of time required to acquire the third molar model using the pipeline.\n  Data were analyzed using the Kruskal–Wallis test. Statistical significance was set at P \u003c .05.\n  In the surface matching comparison for different reconstructed models, the deep learning group achieved the lowest RMS value (0.335 ± 0.066 mm). There were no significant differences in RMS values between manual design by a senior doctor and deep learning-based design (P = .688), and the standard deviation values did not differ among the 3 groups (P = .103). The deep learning-based design pipeline (0.017 ± 0.001 minutes) provided a faster assessment compared to the manual design pipeline by both senior (19.676 ± 2.386 minutes) and junior doctors (30.613 ± 6.571 minutes) (P \u003c .001).\n  The deep learning-based automatic pipeline exhibited similar performance in surgical guide design for autogenous tooth transplantation compared to manual design by senior doctors, and it minimized time costs.\n  }\n}",
+            ]);
+        </script>
+        <script>
+            self.__next_f.push([
+                1,
+                "e:T408,Text-based pedestrian search (TBPS) aims at retrieving target persons from the image gallery through descriptive text queries. Despite remarkable progress in recent state-of-the-art approaches, previous works still struggle to efficiently extract discriminative features from multi-modal data. To address the problem of cross-modal fine-grained text-to-image, we proposed a novel Siamese Contrastive Language-Image Model (SiamCLIM). The model implements textual description and target-person interaction through deep bilateral projection, and siamese network structure to capture the relationship between text and image. Experiments show that our model significantly outperforms the state-of-the-art methods on cross-modal fine-grained matching tasks. We conduct the downstream task experiments on the benchmark dataset CUHK-PEDES and the experimental results demonstrate that our model is state-of-the-art and outperforms the current methods by 11.55%, 11.02%, and 7.76% in terms of top-1, top-5, and top-10 accuracy, respectively.f:T596,@inproceedings{huang2023siamclim,\n  title = {SiamCLIM: Text-Based Pedestrian Search Via Multi-Modal Siamese Contrastive Learning},\n  booktitle = {IEEE International Conference on Image Processing (ICIP),},\n  author = {Huang, Runlin and Wu, Shuyang and Jie, Leiping and Zuo, Xinxin and Zhang, Hui},\n  year = {2023},\n  pages = {1800-1804},\n  doi = {10.1109/ICIP49359.2023.10222660},\n  abstract = {Text-based pedestrian search (TBPS) aims at retrieving target persons from the image gallery through descriptive text queries. Despite remarkable progress in recent state-of-the-art approaches, previous works still struggle to efficiently extract discriminative features from multi-modal data. To address the problem of cross-modal fine-grained text-to-image, we proposed a novel Siamese Contrastive Language-Image Model (SiamCLIM). The model implements textual description and target-person interaction through deep bilateral projection, and siamese network structure to capture the relationship between te",
+            ]);
+        </script>
+        <script>
+            self.__next_f.push([
+                1,
+                "xt and image. Experiments show that our model significantly outperforms the state-of-the-art methods on cross-modal fine-grained matching tasks. We conduct the downstream task experiments on the benchmark dataset CUHK-PEDES and the experimental results demonstrate that our model is state-of-the-art and outperforms the current methods by 11.55%, 11.02%, and 7.76% in terms of top-1, top-5, and top-10 accuracy, respectively.}\n}",
+            ]);
+        </script>
+        <script>
+            self.__next_f.push([
+                1,
+                '0:{"P":null,"b":"7Pv-lECSAX0BfMYWWqYTi","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/281a7a2a9170c50d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.svg","type":"image/svg+xml"}],["$","link",null,{"rel":"dns-prefetch","href":"https://google-fonts.jialeliu.com"}],["$","link",null,{"rel":"preconnect","href":"https://google-fonts.jialeliu.com","crossOrigin":""}],["$","link",null,{"rel":"preload","as":"style","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700\u0026family=Crimson+Text:ital,wght@0,400;0,600;1,400\u0026display=swap"}],["$","link",null,{"rel":"stylesheet","id":"gfonts-css","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700\u0026family=Crimson+Text:ital,wght@0,400;0,600;1,400\u0026display=swap","media":"print"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\\n              (function(){\\n                var l = document.getElementById(\'gfonts-css\');\\n                if (!l) return;\\n                if (l.media !== \'all\') {\\n                  l.addEventListener(\'load\', function(){ try { l.media = \'all\'; } catch(e){} });\\n                }\\n              })();\\n            "}}],["$","noscript",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://google-fonts.jialeliu.com/css2?family=Inter:wght@300;400;500;600;700\u0026family=Crimson+Text:ital,wght@0,400;0,600;1,400\u0026display=swap"}]}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\\n              try {\\n                const theme = localStorage.getItem(\'theme-storage\');\\n                const parsed = theme ? JSON.parse(theme) : null;\\n                const setting = parsed?.state?.theme || \'system\';\\n                const prefersDark = typeof window !== \'undefined\' \u0026\u0026 window.matchMedia \u0026\u0026 window.matchMedia(\'(prefers-color-scheme: dark)\').matches;\\n                const effective = setting === \'dark\' ? \'dark\' : (setting === \'light\' ? \'light\' : (prefersDark ? \'dark\' : \'light\'));\\n                var root = document.documentElement;\\n                root.classList.add(effective);\\n                root.setAttribute(\'data-theme\', effective);\\n              } catch (e) {\\n                var root = document.documentElement;\\n                root.classList.add(\'light\');\\n                root.setAttribute(\'data-theme\', \'light\');\\n              }\\n            "}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L2",null,{"children":[["$","$L3",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"},{"title":"Publications","type":"page","target":"publications","href":"/publications"},{"title":"Awards","type":"page","target":"awards","href":"/awards"},{"title":"CV","type":"page","target":"cv","href":"/cv"}],"siteTitle":"Shuyang Wu","enableOnePageMode":false}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\\"Segoe UI\\",Roboto,Helvetica,Arial,sans-serif,\\"Apple Color Emoji\\",\\"Segoe UI Emoji\\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{"lastUpdated":"December 4, 2025"}]]}]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"className":"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen","children":["$","div",null,{"className":"grid grid-cols-1 lg:grid-cols-3 gap-12","children":[["$","div",null,{"className":"lg:col-span-1","children":["$","$L7",null,{"author":{"name":"Shuyang (Frank) Wu","title":"PhD Candidate","institution":"University of Edinburgh","avatar":"/bio.jpg"},"social":{"email":"frank.wu@ed.ac.uk","location":"School for Regeneration and Repair","location_url":"https://www.google.com/maps/place/Institute+for+Regeneration+and+Repair+(South+Building)/@55.9205993,-3.1331385,17z/data=!3m1!4b1!4m6!3m5!1s0x4887b9168c94d9e7:0x2edc4541bc4a80ba!8m2!3d55.9205993!4d-3.1305636!16s%2Fg%2F11sv1mhx8s?entry=ttu\u0026g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D","location_details":["4-5 Little France Drive, Edinburgh BioQuarter,","Edinburgh EH16 4UU"],"google_scholar":"https://scholar.google.com/citations?user=SuKTqhcAAAAJ\u0026hl=en","orcid":"","github":"https://github.com/franksyng","linkedin":"linkedin.com/in/frank-shuyang-wu"},"features":{"enable_likes":true,"enable_one_page_mode":false},"researchInterests":["Machine Learning","Computational Pathology","Medical Image Analysis"]}]}],["$","div",null,{"className":"lg:col-span-2 space-y-8","children":[["$","section","about",{"id":"about","className":"scroll-mt-24 space-y-8","children":[[["$","$L8","about",{"content":"I am a PhD candidate at the School of Regeneration and Repair, University of Edinburgh, advised by [Prof Timothy Kendall](https://edwebprofiles.ed.ac.uk/profile/timothy-kendall) (Medical), [Dr Sandrine Prost](https://pathology.ed.ac.uk/people/staff-and-students/dr-sandrine-prost) (Medical) and [Dr Hakan Bilen](https://homepages.inf.ed.ac.uk/hbilen/) (Informatics).\\n\\nPrior to this, I obtained a MSc degree in Cognitive Science at the University of Edinburgh and a BSc degree with Honour at the Beijing Normal - Hong Kong Baptist University. Both of my bachelor\'s and master\'s degree worked on medical image analysis, specifically MRI and histopathology images.\\n\\nMy current research focuses on machine learning, computational pathology and medical image analysis.\\n","title":"About"}],["$","$L9","featured_publications",{"publications":[{"id":"wu2025laddermil","title":"LadderMIL: Multiple Instance Learning with Coarse-to-Fine Self-Distillation","authors":[{"name":"Shuyang Wu","isHighlighted":false,"isCorresponding":true,"isCoAuthor":true},{"name":"Yifu Qiu","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false},{"name":"Ines P. Nearchou","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false},{"name":"Sandrine Prost","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false},{"name":"Jonathan A. Fallowfield","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false},{"name":"Hideki Ueno","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false},{"name":"Hitoshi Tsuda","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false},{"name":"David J. Harrison","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false},{"name":"Hakan Bilen","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false},{"name":"Timothy J. Kendall","isHighlighted":false,"isCorresponding":true,"isCoAuthor":false}],"year":2025,"type":"preprint","status":"published","tags":[],"keywords":"$0:f:0:1:2:children:1:props:children:0:props:children:props:children:1:props:children:0:props:children:0:1:props:publications:0:tags","researchArea":"machine-learning","journal":"","conference":"Under review,","pages":"45--52","doi":"https://arxiv.org/abs/2502.02707","code":"https://github.com/franksyng/LadderMIL","abstract":"$a","description":"","selected":true,"bibtex":"$b"},{"id":"wei2024autologous","title":"Autologous Transplantation Tooth Guide Design Based on Deep Learning","authors":[{"name":"Lifen Wei","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false},{"name":"Shuyang Wu","isHighlighted":false,"isCorresponding":false,"isCoAuthor":true},{"name":"Zelun Huang","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false},{"name":"Yaxin Chen","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false},{"name":"Haoran Zheng","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false},{"name":"Liping Wang","isHighlighted":false,"isCorresponding":true,"isCoAuthor":false}],"year":2024,"month":"3","type":"journal","status":"published","tags":[],"keywords":"$0:f:0:1:2:children:1:props:children:0:props:children:props:children:1:props:children:0:props:children:0:1:props:publications:1:tags","researchArea":"machine-learning","journal":"Journal of Oral and Maxillofacial Surgery,","conference":"","volume":"82","issue":"3","pages":"314-324","doi":"10.1016/j.joms.2023.09.014","abstract":"$c","description":"","selected":true,"bibtex":"$d"},{"id":"huang2023siamclim","title":"SiamCLIM: Text-Based Pedestrian Search Via Multi-Modal Siamese Contrastive Learning","authors":[{"name":"Runlin Huang","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false},{"name":"Shuyang Wu","isHighlighted":false,"isCorresponding":false,"isCoAuthor":true},{"name":"Leiping Jie","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false},{"name":"Xinxin Zuo","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false},{"name":"Hui Zhang","isHighlighted":false,"isCorresponding":false,"isCoAuthor":false}],"year":2023,"type":"conference","status":"published","tags":[],"keywords":"$0:f:0:1:2:children:1:props:children:0:props:children:props:children:1:props:children:0:props:children:0:1:props:publications:2:tags","researchArea":"machine-learning","journal":"","conference":"IEEE International Conference on Image Processing (ICIP),","pages":"1800-1804","doi":"10.1109/ICIP49359.2023.10222660","abstract":"$e","description":"","selected":true,"bibtex":"$f"}],"title":"Selected Publications","enableOnePageMode":true}]],false,false,false]}]]}]]}]}],["$","$L10",null,{"children":"$L11"}],null,["$","$L12",null,{"children":["$L13","$L14",["$","$L15",null,{"promise":"$@16"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","P_wUP1Qj7wX8eIE7RMIPT",{"children":[["$","$L17",null,{"children":"$L18"}],null]}],null]}],false]],"m":"$undefined","G":["$19","$undefined"],"s":false,"S":true}\n',
+            ]);
+        </script>
+        <script>
+            self.__next_f.push([
+                1,
+                '1a:"$Sreact.suspense"\n1b:I[4911,[],"AsyncMetadata"]\n11:["$","$1a",null,{"fallback":null,"children":["$","$L1b",null,{"promise":"$@1c"}]}]\n',
+            ]);
+        </script>
+        <script>
+            self.__next_f.push([1, "14:null\n"]);
+        </script>
+        <script>
+            self.__next_f.push([
+                1,
+                '18:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]\n13:null\n',
+            ]);
+        </script>
+        <script>
+            self.__next_f.push([
+                1,
+                '1c:{"metadata":[["$","title","0",{"children":"Shuyang Wu"}],["$","meta","1",{"name":"description","content":"PhD candidate at the University of Edinburgh."}],["$","meta","2",{"name":"author","content":"Shuyang (Frank) Wu"}],["$","meta","3",{"name":"keywords","content":"Shuyang (Frank) Wu,PhD,Research,University of Edinburgh"}],["$","meta","4",{"name":"creator","content":"Shuyang (Frank) Wu"}],["$","meta","5",{"name":"publisher","content":"Shuyang (Frank) Wu"}],["$","meta","6",{"property":"og:title","content":"Shuyang Wu"}],["$","meta","7",{"property":"og:description","content":"PhD candidate at the University of Edinburgh."}],["$","meta","8",{"property":"og:site_name","content":"Shuyang (Frank) Wu\'s Academic Website"}],["$","meta","9",{"property":"og:locale","content":"en_US"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary"}],["$","meta","12",{"name":"twitter:title","content":"Shuyang Wu"}],["$","meta","13",{"name":"twitter:description","content":"PhD candidate at the University of Edinburgh."}],["$","link","14",{"rel":"icon","href":"/favicon.svg"}]],"error":null,"digest":"$undefined"}\n16:{"metadata":"$1c:metadata","error":null,"digest":"$undefined"}\n',
+            ]);
+        </script>
+    </body>
+</html>
